@@ -22,11 +22,14 @@ public class PlatformApiException extends HerokuException {
 		private String message;
 		private String limit;
 		private String size;
+		private String url;
 		
 		public String getId() { return this.id;}
 		public String getMessage() { return this.message;}
 		public String getLimit(){return this.limit;}
 		public String getSize(){return this.size;}
+		public String getUrl(){return this.url;}
 	}
 }
+
 
